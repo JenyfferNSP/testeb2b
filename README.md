@@ -4,6 +4,7 @@ Esta página foi desenvolvida com HTML5 e SCSS utilizando os plugins Live Sass C
 instalar e iniciar os mesmos.
 
 Links dos plugins: 
+
 Live Sass Compiler: https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
 Live Server: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
