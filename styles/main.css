@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito Sans';
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+body .green {
+  color: #71bf44;
+}
+
+body .green-upper {
+  color: #71bf44;
+  text-transform: uppercase;
+}
+
+.header-fixed {
+  background-color: #1d182d;
+  height: 15vh;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-fixed .logo {
+  width: 130px;
+  height: 120px;
+  background-color: #71bf44;
+  position: relative;
+  top: 20%;
+}
+
+.header-fixed .items {
+  display: contents;
+  padding: 10px;
+}
+
+.header-fixed .items .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.header-fixed .items .login p {
+  text-transform: uppercase;
+  color: white;
+  font-size: x-small;
+  padding: 6px;
+}
+
+.header-fixed .items .login .user {
+  height: 25%;
+}
+
+.header-fixed .items .search {
+  width: 40%;
+}
+
+.header-fixed .items .search input {
+  width: 90%;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.header-fixed .items .atendimento {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.header-fixed .items .atendimento p {
+  text-transform: uppercase;
+  color: white;
+  font-size: x-small;
+  padding: 6px;
+}
+
+.header-fixed .items .atendimento .wpp {
+  height: 25%;
+}
+
+.header-fixed .items .cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.header-fixed .items .cart p {
+  text-transform: uppercase;
+  color: white;
+  font-size: x-small;
+  padding: 6px;
+}
+
+.header-fixed .items .cart .sacola {
+  height: 25%;
+}
+
+.hidden-header {
+  background-color: #252158;
+  height: 40px;
+  width: 100%;
+}
+
+.hidden-header .options {
+  text-align: center;
+  padding-top: 1%;
+}
+
+.hidden-header .options p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #71bf44;
+  text-transform: uppercase;
+  padding-left: 120px;
+}
+
+.banner {
+  height: 40vh;
+  width: 100vw;
+  background-color: gray;
+}
+
+.faixa-info {
+  height: 8vh;
+  width: 100vw;
+  background-color: #1d182d;
+  padding: 3px;
+}
+
+.faixa-info .options {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+/*# sourceMappingURL=main.css.map */
